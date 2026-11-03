@@ -1,9 +1,9 @@
 aiohttp-jinja2==1.2.0
-aiohttp==3.8.1
+aiohttp==3.14.4
 aiohttp_session==2.9.0
 aiohttp-security==0.4.0
 aiohttp-apispec==2.2.1
-jinja2==2.11.3
+jinja2==3.1.6
 pyyaml>=5.1
 cryptography>=3.2
 websockets==9.1
@@ -11,18 +11,18 @@ Sphinx==3.0.4
 docutils==0.16 # Broken bullet lists in sphinx_rtd_theme https://github.com/readthedocs/sphinx_rtd_theme/issues/1115
 sphinx_rtd_theme==0.4.3
 recommonmark==0.6.0
-marshmallow==3.5.1
+marshmallow==3.26.2
 dirhash==0.2.0
 docker==4.2.0
 donut-shellcode==0.9.2
 marshmallow-enum==1.5.1
 ldap3==2.8.1
 lxml~=4.6.2  # debrief
-reportlab==3.5.67  # debrief
+reportlab==3.6.13  # debrief
 svglib==1.0.1  # debrief
-Markdown==3.3.3  # training
-dnspython==2.1.0
-asyncssh==2.5.0
+Markdown==3.8.1  # training
+dnspython==2.9.0
+asyncssh==2.24.0
 aioftp~=0.18.1; python_version >= '3.7'
 aioftp==0.16.1; python_version < '3.7'
-pyminizip==0.2.4
+pyminizip==0.2.6
